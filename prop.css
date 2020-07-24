@@ -1,0 +1,232 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: bold;
+    color: white;
+    font-family: 'Oxygen';
+  }
+  
+  h2 {
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #efefef;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 30px;
+    color: #a9a9a9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 30px;  
+    border: none;
+    outline: none;
+    color: #a9a9a9;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #dedede;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+  }
+  
+  @keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .page{
+    background-color: #a3a3a3;
+  }
+  
+  .title{
+    text-align:center;
+    font-size: 36px;
+    color: white;
+    background-color:#333;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 1000px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cdcdcd;
+    color: black;
+    text-align: center;
+ }
+
+  
+  .parallax15 {
+    /* The image used */
+    background-image: url("https://www.aclusocal.org/sites/default/files/field_image/cs-image-20180313.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax16 {
+    /* The image used */
+    background-image: url("https://media.npr.org/assets/img/2018/07/06/robdobi_npr_aa_slide-1e47fc9caa22b9f38294882a9339d791172292b4.jpeg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax17 {
+    /* The image used */
+    background-image: url("https://static01.nyt.com/images/2018/01/03/opinion/03wed2/03wed2-superJumbo.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax18 {
+    /* The image used */
+    background-image: url("https://static01.nyt.com/images/2018/03/04/opinion/04gray-WEB/04gray-WEB-superJumbo.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax20 {
+    /* The image used */
+    background-image: url("https://media.npr.org/assets/img/2018/04/20/ap_18110715539373_wide-2a8d76d952e0e99a8e9d5da0599bd61779807c75-s800-c85.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax21 {
+    /* The image used */
+    background-image: url("https://california.need.estate/images/NEWS/law/rent-control/rent_angry-people.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax24 {
+    /* The image used */
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/66/31/online-security-data-protection-vector-21786631.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .white{
+    color:white;
+  }
+  .black{
+    color:black;
+  }
