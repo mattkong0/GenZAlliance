@@ -15,7 +15,7 @@ h1 {
 h1.a {
   background: #c2ebef;
   background: rgba(194,235,239,0.76);
-  opacity: 0.7;
+  opacity: 2;
   padding: 0 23px;
   display: inline-block;
 }
@@ -167,7 +167,7 @@ body, html {
   position: absolute;
   background: #c2ebef;
   background: rgba(194,235,239,0.76);
-  opacity: 0.7;
+  opacity: 2;
   padding-left: 20px;
   padding-right: 20px;
 }
